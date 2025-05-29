@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+ box-sizing: content-box; 
+ margin: 0;  
+ padding: 0;
+}
+
+.contenedor-body {
+    background-color:white;
+    font-family: Righteous, Verdana, Tahoma, sans-serif;
+}
+
+.contenedor-header {
+    display: flex;
+}
+
+.imagen{
+    width: 150px;
+    height: 100px;
+    margin-right: 400px;
+}
+
+
+.flex-links {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FC7A1E;
+    color: #E7E7E7;
+    font-size: 18px;
+    padding: 2%;
+}
+
+.busqueda-section {
+    display: flex;
+    padding: 3%;
+}
+
+.search-box {
+    background-image: url(../media/img/fotografia-panoramica.jpg);
+    background-size: 100%;
+    padding: 5%;
+    justify-content: inherit;
+    border-radius: 7px;
+    
+}
+
+
+.formulario-busqueda {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   background-color: #485696;
+   border: 2px solid gray;
+   color: #E7E7E7;
+   border-radius: 20px;
+   text-align: center;
+   gap: 15px;
+   padding: 3%;
+}
+
+.botonbuscar {
+    background-color: #E7E7E7;
+    border-radius: 5px;
+    color: black;
+    font-family: Righteous, Verdana, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.botonbuscar:hover {
+   background-color: #F24C00; 
+   color: white;
+   font-family: Righteous, Verdana, Tahoma, sans-serif;
+   cursor: pointer; 
+}
+
+.flex-container {
+display: flex;
+flex-wrap: wrap;
+padding: 6%;
+justify-content:center;
+gap: 10px;
+}
+
+.argentina {
+border: 5px solid #FC7A1E; 
+border-radius: 7px;
+text-align: center;  
+}
+
+.promo {
+font-size: x-large;
+}
+
+.oferta {
+font-size: medium;
+color: #F24C00;
+}
+
+.opciones {
+font-size: small;    
+}
+
+.boton1 {
+    background-color: #E7E7E7;
+    border-radius: 5px;
+    color: black;
+    font-family: Righteous, Verdana, Tahoma, sans-serif;
+    text-align: center;
+    padding: 3%;
+}
+
+.boton1:hover {
+   background-color: #F24C00; 
+   color: white;
+   font-family: Righteous, Verdana, Tahoma, sans-serif;
+   cursor: pointer; 
+}
+
+.brasil {
+border: 5px solid #FC7A1E; 
+border-radius: 7px;
+text-align: center;  
+}
+
+.europa {
+border: 5px solid #FC7A1E; 
+border-radius: 7px;
+text-align: center;  
+}
+
+.mundialclubes {
+border: 5px solid #FC7A1E; 
+border-radius: 7px;
+text-align: center;  
+}
+
+.caribe {
+border: 5px solid #FC7A1E; 
+border-radius: 7px;
+text-align: center;  
+}
+
+.sudesteasia {
+border: 5px solid #FC7A1E; 
+border-radius: 7px;
+text-align: center;  
+}
+
+.disney {
+border: 5px solid #FC7A1E; 
+border-radius: 7px;
+text-align: center;  
+}
+
+.uruguay {
+border: 5px solid #FC7A1E; 
+border-radius: 7px;
+text-align: center;  
+}
+
+.Formulario {
+ padding: 3%;
+ }
+
+.formulario {
+    border: 2px solid gray; 
+    background-image: url(../media/img/louvre.jpg);
+    background-size: 120%;
+    border-radius: 10px;
+    padding: 4%;
+    text-align:center;
+}  
+
+.consultas {
+ font-size:x-large;
+}
+
+.boton {
+    background-color: #E7E7E7;
+    border-radius: 5px;
+    color: black;
+    font-family: Righteous, Verdana, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.boton:hover {
+   background-color: #F24C00; 
+   color: white;
+   font-family: Righteous, Verdana, Tahoma, sans-serif;
+   cursor: pointer; 
+}
+
+.contenedor-footer {
+   display: flex;
+   gap: 25px;
+   flex-wrap: wrap;
+   background-color: rgb(119, 119, 119); 
+   color: #E7E7E7;  
+   justify-content: space-between;
+}
+
+
+.logo2 {
+   width: 100px;
+   height: 100px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: left;
+   padding: 5%;
+   gap: 15px;
+}
+
+.ventas {
+   color: white;
+   font-size: x-large;
+   position: relative;
+   left: 30px;
+   bottom: 10px;
+}
+
+.whatsapp {
+   width: 40px;
+   height: 40px;
+   position: relative;
+   right:60px;
+   top: 60px;
+}
+
+.numerowh {
+   color: white;
+   font-size: large;
+   position: relative;
+   left:80px;
+   top:25px;
+}
+
+.telefono-ventas {
+   width: 40px;
+   height: 40px;
+   position: relative;
+   left:20px;
+   top: 40px;
+}
+
+.numerotel {
+   color: white;
+   font-size: large;
+   position: relative;
+   left: 80px;
+   top: 5px;
+}
+
+.sucursales {
+   color: white;
+   font-size: x-large;
+   display: flex;  
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 5%;
+}
+
+.iframe {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding: 3%; 
+}
+
+.flex-iconos {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content:right;
+    padding:1%;
+}
+
+.seguinos {
+   color: white;
+   font-size: x-large;
+   margin-right: 50px;
+}
+
+.instagram {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: 40px;
+    bottom: 5px;  
+}
+
+.facebook {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: 40px;
+    bottom: 5px; 
+}
+
+.linkedin {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: 40px;
+    bottom: 5px;  
+}
+
+.horarios-atención {
+    color: white;
+    font-size: large;
+    margin-left: 20px;
+
+}
